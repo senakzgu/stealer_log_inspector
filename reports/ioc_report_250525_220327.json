@@ -1,0 +1,51 @@
+{
+    "source_archive": "/Users/senakuzgu/Desktop/stealer_log_inspector/test_logs/test_log_sample.zip",
+    "extracted_path": "/var/folders/km/w3h86nqx05x5zn2nplm2fj5c0000gn/T/log_extract_rmycuubp",
+    "hashes": {
+        "/var/folders/km/w3h86nqx05x5zn2nplm2fj5c0000gn/T/log_extract_rmycuubp/test_log_sample/passwords.txt": "5665e7d81c4f5e733098acd9c661f82e399f47d1e0fa6c3ab9c99d911022c895",
+        "/var/folders/km/w3h86nqx05x5zn2nplm2fj5c0000gn/T/log_extract_rmycuubp/test_log_sample/wallets.json": "6c633cdac5f865d4445c0a56cec15847285254ee890af187588b4033165ea11d",
+        "/var/folders/km/w3h86nqx05x5zn2nplm2fj5c0000gn/T/log_extract_rmycuubp/test_log_sample/system_info.txt": "b94843b9101d3a2a7a3844b75cfabc9f85c02541f5cfc9f729571e01048d3a66",
+        "/var/folders/km/w3h86nqx05x5zn2nplm2fj5c0000gn/T/log_extract_rmycuubp/test_log_sample/discord_token.txt": "ab140f55b15adb458939a5ff582decda4e71729d2ab2bb5f775e01b15bbcaf66"
+    },
+    "iocs": {
+        "passwords": {
+            "emails": [
+                "user1@example.com",
+                "admin@demo.net"
+            ],
+            "btc_wallets": [],
+            "eth_wallets": [],
+            "ipv4": [],
+            "tokens": []
+        },
+        "wallets": {
+            "emails": [],
+            "btc_wallets": [
+                "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+            ],
+            "eth_wallets": [
+                "0x742d35Cc6634C0532925a3b844Bc454e4438f44e"
+            ],
+            "ipv4": [],
+            "tokens": []
+        },
+        "system_info": {
+            "emails": [],
+            "btc_wallets": [],
+            "eth_wallets": [],
+            "ipv4": [
+                "192.168.1.105"
+            ],
+            "tokens": []
+        },
+        "tokens": {
+            "emails": [],
+            "btc_wallets": [],
+            "eth_wallets": [],
+            "ipv4": [],
+            "tokens": [
+                "NzI1OTYyNzY0NTU3OTYwMzEy.Xv2Jqg.XwzYqUE3kF4Pv1234567890ABCDEFG"
+            ]
+        }
+    }
+}

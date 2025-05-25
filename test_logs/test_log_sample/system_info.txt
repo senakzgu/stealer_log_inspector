@@ -1,0 +1,3 @@
+OS: Windows 10
+IP: 192.168.1.105
+Hostname: INFECTED-PC
