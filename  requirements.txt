@@ -1,0 +1,18 @@
+# Archive processing
+rarfile>=4.0
+zipfile36 ; python_version < '3.7'
+
+# IOC extraction and filesystem
+python-magic-bin ; platform_system == "Windows"
+python-magic ; platform_system != "Windows"
+
+# Gelişmiş yol yönetimi (Pathlib dahil)
+pathlib ; python_version < '3.4'
+
+# Raporlama ve JSON işlemleri (native modüller, sadece hatırlatıcı)
+# json
+# sys
+# os
+
+# Test ve debug araçları (opsiyonel)
+colorama>=0.4
